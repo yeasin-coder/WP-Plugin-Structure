@@ -7,7 +7,9 @@
 
 namespace Inc\Pages;
 
-class Admin{
+use Inc\Base\BaseController;
+
+class Admin extends BaseController{
 
 	public function __construct(){
 		
@@ -33,6 +35,6 @@ class Admin{
 
     public function admin_index(){
         //add the content of the 'Practice' admin page
-        require_once( PLUGIN_PATH . 'templates/admin.php' );
+        require_once( $this->plugin_path . 'templates/admin.php' );
     }
 }
