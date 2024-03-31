@@ -1,0 +1,11 @@
+{
+    "name": "yeasin/practice",
+    "description": "An awesome plugin developed by Mr. Yeasin Hossain",
+    "type": "project",
+    "license": "GPL",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\" : "./inc"}
+    }
+}
